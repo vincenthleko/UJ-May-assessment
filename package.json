@@ -1,40 +1,35 @@
 {
-  "devDependencies": {
-    "vite": "^5.2.12",
-    "vite-plugin-handlebars": "^2.0.0"
-  },
   "name": "uj-may-assessment",
-  "description": "",
   "version": "1.0.0",
-  "main": "vite.config.js",
-  "dependencies": {
-    "esbuild": "^0.20.2",
-    "handlebars": "^4.7.8",
-    "minimist": "^1.2.8",
-    "nanoid": "^3.3.7",
-    "neo-async": "^2.6.2",
-    "picocolors": "^1.0.1",
-    "postcss": "^8.4.38",
-    "rollup": "^4.18.0",
-    "source-map": "^0.6.1",
-    "source-map-js": "^1.2.0",
-    "uglify-js": "^3.17.4",
-    "wordwrap": "^1.0.0"
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
   },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "contributors": [],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codex-academy/UJ-May-assessment.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/codex-academy/UJ-May-assessment/issues"
-  },
-  "homepage": "https://github.com/codex-academy/UJ-May-assessment#readme"
+  "devDependencies": {
+    "vite": "^5.2.12",
+    "vite-plugin-handlebars": "^2.0.0"
+  }
 }
