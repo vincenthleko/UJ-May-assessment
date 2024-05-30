@@ -20,7 +20,6 @@ npm install
 
 * Please be sure to regularly commit to git locally
 
-## Deployment 
 # Deployment
 
 Add your project to git and deploy to GitHub Pages. 
