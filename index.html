@@ -1,11 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+
+            background-color: E1E5EE;
+        }
+        .vincent {
+            background-color: 767B91;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <div class="divider"></div>
+    <div class="container vincent">
+        <div class="row">
+            <div class="col l6 s12">
+                <h1>{{user.fullName}}</h1><br>
+            </div>
+            <div class="col l6 s12">
+                <img src="/images/{{user.photo}}" width="350px"><br>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+    <div class="container">
+        <h2> Contact details <i class="medium material-icons">call</i> </h2>
+        <div class="row">
+            <div class="col l6 s12">{{user.phone}}<br></div>
+            <div class="col l6 s12">{{user.email}}<br></div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+    <div class="container">
+        <h2> Education <i class="medium material-icons">account_balance</i> </h2>
+        <div class="row">
+            <div class="col l12 s12 center-align">
+                <h3>{{education.institutionName}}</h3><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col l6 s12">
+                <img src="/images/{{education.photo}}" width="50%"><br>
+            </div>
+            <div class="col l6 s12">
+                {{education.description}}<br>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="divider"></div>
+    <div class="container">
+        <h2>Foreign Language <i class="medium material-icons">language</i></h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>English</th>
+                    <th>Swahili</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each foreignLanguage.phrases}}
+                <tr>
+                    <td>{{englishPhrase}}</td>
+                    <td>{{foreignLanguage}}</td>
+
+                </tr>
+                {{/each}}
+            </tbody>
+        </table><br>
+    </div>
+
+    <div class="divider"></div>
+    <div class="container">
+        <h2>Subjects <i class="medium material-icons">border_color</i></h2>
+        <div class="row">
+            {{#each favouriteSubjects}}
+            <div class="col l4 s12">
+                <h3>{{this.name}}</h3><br>
+                <div class="l6">
+                    {{this.description_line1}}<br>
+                    {{this.description_line2}}<br>
+                </div>
+                <div class="l6">
+                    <img src="/images/{{photo}}" width="150px"><br>
+                </div>
+            </div>
+            {{/each}}
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
+
 </html>
