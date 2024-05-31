@@ -1,35 +1,60 @@
 {
-    "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+    "user": {
+        "fullName": "Vincent Ittumeleng Hleko",
+        "photo": "./images/cv profile pic.jpg",
+        "phone": "0715821446",
+        "email": "vincenthleko95@gmail.com"
     },
-    "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+    "education": {
+        "institutionName": "University of Johannesburg",
+        "photo": "./download.png",
+        "description": "I am BSc graduate currently doing the 4IR work readiness programme internship at the university of Johannesburg. I ma seeking for a role in the tech industry and my skills includes: data modelling and evaluation, data visualization, machine learning, javascript, HTML, CSS, responsive webpage, and git "
     },
-    "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
+    "foreignLanguage": {
+        "language": "Swahili",
+        "phrases": [
+            {
+                "englishPhrase": "Hello",
+                "foreignLanguage": "Habari"
+            },
+            {
+                "englishPhrase": "Goodbye",
+                "foreignLanguage": "Kwaheri"
+            }
+        ]
+    },
+    "favouriteSubjects": [
+        {
+            "name": "Mathematics (statistics)",
+            "description_line1": "Qualification: BSc in life and environmental science",
+            "description_line2": "Institution: University of Johannesburg",
+            "photo": "./statistics.jpg"
         },
         {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
-    },
-    "favouriteSubjects" : [
-        {
-            "name" : "",
-            "description" : ""
+            "name": "Organic Chemistry",
+            "description_line1": "Qualification: BSc in life and environmental science",
+            "description_line2": "Institution: University of Johannesburg",
+            "photo": "./organic chemistry.jpg"
         },
         {
-            "name" : "",
-            "description" : ""
+            "name": "Physics",
+            "description_line1": "Qualification: BSc in life and environmental science",
+            "description_line2": "Institution: University of Johannesburg",
+            "photo": "./physics.jpg"
         }
-        
+    ],
+    "experience": [
+        {
+            "company": "zijin Platinum mine",
+            "position": "Underground hardrock breaking learnership"
+        },
+        {
+            "company": "University of Johannesburg",
+            "position": "lab assistant intern"
+        },
+        {
+            "company": "Fetakgomo Tubatse local municipality",
+            "position": "waste management campaigner"
+        }
     ]
 }
