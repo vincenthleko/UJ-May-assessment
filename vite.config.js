@@ -6,6 +6,7 @@ export default {
   plugins: [
     handlebars({
       context: data// replace the curly brackets with data.json
+
     }),
   ],
 };
