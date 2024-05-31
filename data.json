@@ -1,1 +1,12 @@
-{}
+{
+    "subjects":[
+        {
+            "name":"IsiZulu"
+        },
+        {
+            "name":"IsiXhosa"
+        }
+    ],
+
+    "photo":"./pic.png"
+}
