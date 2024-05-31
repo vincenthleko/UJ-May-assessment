@@ -28,19 +28,19 @@
             "name": "Mathematics (statistics)",
             "description_line1": "Qualification: BSc in life and environmental science",
             "description_line2": "Institution: University of Johannesburg",
-            "photo": "./statistics.jpg"
+            "photo": "./images/statistics.jpg"
         },
         {
             "name": "Organic Chemistry",
             "description_line1": "Qualification: BSc in life and environmental science",
             "description_line2": "Institution: University of Johannesburg",
-            "photo": "./organic chemistry.jpg"
+            "photo": "./image/organic chemistry.jpg"
         },
         {
             "name": "Physics",
             "description_line1": "Qualification: BSc in life and environmental science",
             "description_line2": "Institution: University of Johannesburg",
-            "photo": "./physics.jpg"
+            "photo": "./image/physics.jpg"
         }
     ],
     "experience": [
