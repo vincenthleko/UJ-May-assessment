@@ -34,13 +34,13 @@
             "name": "Organic Chemistry",
             "description_line1": "Qualification: BSc in life and environmental science",
             "description_line2": "Institution: University of Johannesburg",
-            "photo": "./image/organic chemistry.jpg"
+            "photo": "./images/organic chemistry.jpg"
         },
         {
             "name": "Physics",
             "description_line1": "Qualification: BSc in life and environmental science",
             "description_line2": "Institution: University of Johannesburg",
-            "photo": "./image/physics.jpg"
+            "photo": "./images/physics.jpg"
         }
     ],
     "experience": [
