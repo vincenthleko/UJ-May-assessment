@@ -7,7 +7,7 @@
     },
     "education": {
         "institutionName": "University of Johannesburg",
-        "photo": "./download.png",
+        "photo": "./images/download.png",
         "description": "I am BSc graduate currently doing the 4IR work readiness programme internship at the university of Johannesburg. I ma seeking for a role in the tech industry and my skills includes: data modelling and evaluation, data visualization, machine learning, javascript, HTML, CSS, responsive webpage, and git "
     },
     "foreignLanguage": {
@@ -28,7 +28,7 @@
             "name": "Mathematics (statistics)",
             "description_line1": "Qualification: BSc in life and environmental science",
             "description_line2": "Institution: University of Johannesburg",
-            "photo": "./images/statistics.jpg"
+            "photo": "./images/statistics.jpg" 
         },
         {
             "name": "Organic Chemistry",
